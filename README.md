@@ -4,13 +4,13 @@
 ✓ [Contexte](#contexte) <br>
 ✓ [Livrables](#livrables) <br>
 ✓ [Matériel requis](#materiel-requis) <br>
-1- [Simulation sous LTSpice](#simulation-sous-ltspice) <br>
-2- [Design du PCB sous KiCAD](#design-du-pcb-sous-kicad) <br>
-3- [Code sous Arduino IDE](#code-sous-arduino-ide) <br>
-4- [Application Android](#application-android) <br>
-5- [Réalisation du shield](#realisation-du-shield) <br>
-6- [Banc de test et principaux résultats](#banc-de-test-et-principaux-resultats) <br>
-7- [Datasheet du capteur](#datasheet-du-capteur) <br>
+[1- Simulation sous LTSpice](#1--simulation-sous-ltspice) <br>
+[2- Design du PCB sous KiCAD](#2--design-du-pcb-sous-kicad) <br>
+[3- Code sous Arduino IDE](#3--code-sous-arduino-ide) <br>
+[4- Application Android](#4--application-android) <br>
+[5- Réalisation du shield](#5--realisation-du-shield) <br>
+[6- Banc de test et principaux résultats](#6--banc-de-test-et-principaux-resultats) <br>
+[7- Datasheet du capteur](#7--datasheet-du-capteur) <br>
 ✓ [Conclusions et analyse critique du projet](#conclusions-et-analyse-critique-du-projet) <br>
 ___
 ## Contacts
@@ -72,7 +72,7 @@ ___
 ## 7- Datasheet du capteur
 ...
 ___
-## Conclusions et analyse critique
+## Conclusions et analyse critique du projet
 ...
 
 
