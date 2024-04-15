@@ -3,15 +3,15 @@
 ✓ [Contacts](#contacts) <br>
 ✓ [Contexte](#contexte) <br>
 ✓ [Livrables](#livrables) <br>
-✓ [Matériel requis](#materielrequis) <br>
-1- [Simulation sous LTSpice](#simulation) <br>
-2- [Design du PCB sous KiCAD](#design) <br>
-3- [Code sous Arduino IDE](#code) <br>
-4- [Application Android](#application) <br>
-5- [Réalisation du shield](#realisation) <br>
-6- [Banc de test et principaux résultats](#test) <br>
-7- [Datasheet du capteur](#datasheet) <br>
-✓ [Conclusions et analyse critique du projet](#datasheet) <br>
+✓ [Matériel requis](#materiel-requis) <br>
+1- [Simulation sous LTSpice](#simulation-sous-ltspice) <br>
+2- [Design du PCB sous KiCAD](#design-du-pcb-sous-kicad) <br>
+3- [Code sous Arduino IDE](#code-sous-arduino-ide) <br>
+4- [Application Android](#application-android) <br>
+5- [Réalisation du shield](#realisation-du-shield) <br>
+6- [Banc de test et principaux résultats](#banc-de-test-et-principaux-resultats) <br>
+7- [Datasheet du capteur](#datasheet-du-capteur) <br>
+✓ [Conclusions et analyse critique du projet](#conclusions-et-analyse-critique-du-projet) <br>
 ___
 ## Contacts
 Cyril ARDISSON : [ardisson@insa-toulouse.fr](mailto:ardisson@insa-toulouse.fr) <br>
