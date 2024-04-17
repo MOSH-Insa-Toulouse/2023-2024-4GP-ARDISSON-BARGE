@@ -52,27 +52,71 @@ Pour le reste du dispositif : <br>
 ✓ Un flex sensor.
 ___
 ## 1- Simulation sous LTSpice
-...
+Notre capteur en graphite a une résistance de l'ordre du ${G}\Omega$, ce qui conduit, en appliquant une tension d'entrée de $5\ \text{V}$, à obtenir un courant de quelques ${nA}$. En conséquence, notre Arduino Uno ne pourra pas le lire. Il y a donc nécessité d'amplifier ce signal : c'est donc ce pourquoi nous mettons en place un **montage amplificateur transimpédance**. <br>
+
+**_Description du montage amplificateur transimpédance_** <br>
+Notre montage est composé de 4 zones importantes, une pour l'amplification et trois qui correspondent à des filtres : <br>
+✓ Un premier filtre en entrée de l'amplificateur (${R1}$ et ${C1}$) : il correspond à un filtre passe-bas, qui permet de filtrer le bruit en courant sur le signal d'entrée ; <br>
+✓ Un second filtre couplé à l'amplificateur (${R3}$ et ${C4}$) : il correspond aussi à un filtre passe-bas, qui permet de filtrer la composante 50 Hz du réseau électrique ; <br>
+✓ et un troisième filtre en sorti de l'amplificateur (${R6}$ et ${C2}$) : pour filtrer le bruit lié au traitement opéré par l'amplificateur. <br>
+
+Sur LTSpice, nous avons testé ce montage en deux temps. <br>
+
+**_Simulations réalisées avec LTSpice_** <br>
+Sur LTSpice, nous avons testé ce montage en deux temps. <br>
+
+D'abord, nous avons effectué une première simulation pour vérifier si l'amplification était bien effective. Comme on peut le constater ci-dessous, le signal est bien amplifié à $1\ \text{V}$ : l'Arduino pourra donc l'interpréter. <br>
+
+_Insérer image de la réponse d'amplification du circuit_ <br>
+
+Enfin, nous avons effectué une seconde simulation, afin d'observer la réponse à un courant alternatif et ainsi de vérifier que le signal est bien filtré. Comme on peut aussi le constater ci-dessous, le signal paraît filtré. <br>
+
+_Insérer image de la réponse d'amplification du circuit_ <br>
 ___
 ## 2- Design du PCB sous KiCAD
-...
+Ici, nous sommes repartis du montage décrit ci-dessus, avec quelques modifications et ajouts de composants. Nous avons utilisé le logiciel KiCad 7.0 : <br>
+✓ Comme mentionné auparavant, nous avons remplacé ${R2}$ par le potentiomètre digital ; <br>
+✓ Ajout d'un module Bluetooth afin d'assurer la communication entre le PCB et l'APK Android ; <br>
+✓ Ajout d'un écran OLED afin d'afficher 3 menus différents ; <br>
+✓ Ajout d'un encodeur rotatoire afin de passer de menu en menu ; <br>
+✓ Et enfin, ajout d'un flex sensor, en vu des tests finaux. <br>
+
+Pour se faire, nous avons débuté par la création de notre propre bibliothèque de symboles correspondant à nos composants. Puis, nous avons procédé à la création de la schématique électrique de l'ensemble du montage. L'image ci-dessous correspond à cette schématique. <br>
+
+_Insérer image de la schématique_ <br>
+
+Puis, nous avons créé les empreintes de nos composants, en respectant certaines dimensions, en vu de l'impression du PCB (diamètre des trous, forme des empreintes, etc.). Nous sommes ensuite passés à la disposition des composants sur le PCB : une étape fastidieuse avec des compromis afin d'obtenir le placement le plus efficace (en considérant les connexions entre composants, en évitant d'avoir recours aux vias, etc.)... L'image ci-dessous correspond au résultat final de notre PCB, et sa vue en 3D correspondante :
+
+_Insérer image PCB + 3D_ <br>
 ___
 ## 3- Code sous Arduino IDE
-...
+_Section en construction..._ <br>
 ___
 ## 4- Application Android
-...
+_Section en construction..._ <br>
 ___
 ## 5- Réalisation du shield
-...
+Fin mars, nous avons pu passer à la réalisation _physique_ de notre PCB. Voici les étapes de fabrication réalisées, avec l'aide de Cathy Crouzet (_merci !_) : <br>
+
+Étape 0 (_importante !_) : vérification du PCB sous KiCad, notamment test DRC <br>
+Étape 1 : édition du masque de gravure sous KiCad <br>
+Étape 2 : insolation UV d'une plaquette d'époxy (recouverte d'une couche de cuivre et de résine photosensible) <br>
+Étape 3 : immersion de la plaquette dans un révélateur afin d'éliminer la résine non-insolée <br>
+Étape 4 : immersion de la plaquette dans du perchlorure de fer pour graver les pistes <br>
+Étape 5 : nettoyage de la plaquette avec de l'acétone pour retirer la résine restante <br>
+Étape 6 : perçage des trous et placement des composants sur le PCB <br>
+
+L'image ci-dessous illustre le rendu final de notre PCB : <br>
+
+_Insérer image du PCB en dur_ <br>
 ___
 ## 6- Banc de test et principaux résultats
-...
+_Section en construction..._ <br>
 ___
 ## 7- Datasheet du capteur
-...
+_Section en construction..._ <br>
 ___
 ## Conclusions et analyse critique du projet
-...
+_Section en construction..._ <br>
 
 
