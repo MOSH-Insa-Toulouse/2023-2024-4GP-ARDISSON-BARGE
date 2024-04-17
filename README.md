@@ -3,7 +3,7 @@
 ✓ [Contacts](#contacts) <br>
 ✓ [Contexte](#contexte) <br>
 ✓ [Livrables](#livrables) <br>
-✓ [Matériel requis](#materiel-requis) <br>
+✓ [Matériel requis](#matériel-requis) <br>
 [1- Simulation sous LTSpice](#1--simulation-sous-ltspice) <br>
 [2- Design du PCB sous KiCAD](#2--design-du-pcb-sous-kicad) <br>
 [3- Code sous Arduino IDE](#3--code-sous-arduino-ide) <br>
