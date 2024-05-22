@@ -142,10 +142,14 @@ Nous avons effectués les tests avec des capteurs recouverts de deux types de gr
 Voici les caractéristiques en compression : <br>
 ![Caractéristique en compression](Caractéristiques_Test/CaracCompression.png) <br>
 
+_Ajouter une partie d'explication_ <br>
+
 Et les caractéristiques en tension : <br>
 ![Caractéristique en tension](Caractéristiques_Test/CaracTension.png) <br>
 
+_Ajouter une partie d'explication_ <br>
 
+(*) _Nous voulions aussi tester notre capteur en graphite issu d'un crayon B, mais les tests n'étaient pas concluants. En effet, cette méthode de test donne des résultats assez aléatoirement. L'usage d'un servomoteur avec une inclinaison pas à pas sur les demi-cercles pourrait peut-être donner des résultats plus stables._ <br>
 ___
 ## 7- Datasheet du capteur
 _Section en construction..._ <br>
