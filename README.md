@@ -63,6 +63,8 @@ Notre montage est composé de 4 zones importantes, une pour l'amplification et t
 ✓ Un second filtre couplé à l'amplificateur (${R3}$ et ${C4}$) : il correspond aussi à un filtre passe-bas, qui permet de filtrer la composante 50 Hz du réseau électrique ; <br>
 ✓ et un troisième filtre en sorti de l'amplificateur (${R6}$ et ${C2}$) : pour filtrer le bruit lié au traitement opéré par l'amplificateur. <br>
 
+![Montage amplificateur transimpédance](LTSpice/circuit.png)<br>
+
 Sur LTSpice, nous avons testé ce montage en deux temps. <br>
 
 **_Simulations réalisées avec LTSpice_** <br>
