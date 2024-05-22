@@ -140,7 +140,11 @@ Nous avons réalisé les tests en *compression* et en *tension*. <br>
 Nous avons effectués les tests avec des capteurs recouverts de deux types de graphite différents : d'un crayon HB et d'un crayon 2B. (*) <br>
 
 Voici les caractéristiques en compression : <br>
-![PCB en vrai](KiCad/PCB_reel.png) <br>
+![Caractéristique en compression](Caractéristiques_Test/CaracCompression.png) <br>
+
+Et les caractéristiques en tension : <br>
+![Caractéristique en tension](Caractéristiques_Test/CaracTension.png) <br>
+
 
 ___
 ## 7- Datasheet du capteur
