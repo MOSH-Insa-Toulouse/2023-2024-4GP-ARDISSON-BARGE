@@ -90,7 +90,14 @@ Puis, nous avons créé les empreintes de nos composants, en respectant certaine
 ![PCB et vue 3B](ImagesKiCad/PCB3D.png) <br>
 ___
 ## 3- Code sous Arduino IDE
-_Section en construction..._ <br>
+Nous avons créés une application en guise d'interface, avec MIT App Inventor. <br>
+
+
+Cette application se veut simple et permet : <br>
+✓ De se connecter au module Bluetooth du PCB afin de communiquer avec ce dernier ; <br>
+✓ D'afficher sur un graphe la résistance du capteur en fonction du temps (où on peut démarrer / arrêter l'acquisition + effacer le graphe) ; <br>
+✓ Et d'afficher la résistance "en direct" ; <br>
+
 ___
 ## 4- Application Android
 _Section en construction..._ <br>
