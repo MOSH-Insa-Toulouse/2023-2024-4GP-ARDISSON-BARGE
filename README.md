@@ -149,6 +149,11 @@ Et les caractéristiques en tension : <br>
 
 _Ajouter une partie d'explication_ <br>
 
+Enfin, pour comparer, nous avons aussi réalisé le test en tension (car cela ne fonctionne pas en compression !) avec le flex sensor : <br>
+![Caractéristique flex sensor](Caractéristiques_Test/CaracFlexSensor.png) <br>
+
+_Ajouter une partie d'explication_ <br>
+
 (*) _Nous voulions aussi tester notre capteur en graphite issu d'un crayon B, mais les tests n'étaient pas concluants. En effet, cette méthode de test donne des résultats assez aléatoirement. L'usage d'un servomoteur avec une inclinaison pas à pas sur les demi-cercles pourrait peut-être donner des résultats plus stables._ <br>
 ___
 ## 7- Datasheet du capteur
