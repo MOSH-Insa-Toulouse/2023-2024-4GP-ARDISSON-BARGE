@@ -11,8 +11,8 @@
 [2- Design du PCB sous KiCAD](#2--design-du-pcb-sous-kicad) <br>
 [3- Code sous Arduino IDE](#3--code-sous-arduino-ide) <br>
 [4- Application Android](#4--application-android) <br>
-[5- Réalisation du shield](#5--realisation-du-shield) <br>
-[6- Banc de test et principaux résultats](#6--banc-de-test-et-principaux-resultats) <br>
+[5- Réalisation du shield](#5--réalisation-du-shield) <br>
+[6- Banc de test et principaux résultats](#6--banc-de-test-et-principaux-résultats) <br>
 [7- Datasheet du capteur](#7--datasheet-du-capteur) <br>
 ✓ [Conclusions et analyse critique du projet](#conclusions-et-analyse-critique-du-projet) <br>
 ___
