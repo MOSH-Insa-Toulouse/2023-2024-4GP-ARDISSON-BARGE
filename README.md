@@ -83,11 +83,11 @@ Ici, nous sommes repartis du montage décrit ci-dessus, avec quelques modificati
 
 Pour se faire, nous avons débuté par la création de notre propre bibliothèque de symboles correspondant à nos composants. Puis, nous avons procédé à la création de la schématique électrique de l'ensemble du montage. L'image ci-dessous correspond à cette schématique. <br>
 
-_Insérer image de la schématique_ <br>
+![Schématique KiCad](ImagesKiCad/Schematique.png) <br>
 
 Puis, nous avons créé les empreintes de nos composants, en respectant certaines dimensions, en vu de l'impression du PCB (diamètre des trous, forme des empreintes, etc.). Nous sommes ensuite passés à la disposition des composants sur le PCB : une étape fastidieuse avec des compromis afin d'obtenir le placement le plus efficace (en considérant les connexions entre composants, en évitant d'avoir recours aux vias, etc.)... L'image ci-dessous correspond au résultat final de notre PCB, et sa vue en 3D correspondante :
 
-_Insérer image PCB + 3D_ <br>
+![PCB et vue 3B](ImagesKiCad/PCB3D.png) <br>
 ___
 ## 3- Code sous Arduino IDE
 _Section en construction..._ <br>
