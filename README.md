@@ -127,7 +127,11 @@ L'image ci-dessous illustre le rendu final de notre PCB : <br>
 ![PCB en vrai](KiCad/PCB_reel.png) <br>
 ___
 ## 6- Banc de test et principaux résultats
-_Section en construction..._ <br>
+Afin de tester nos capteurs, nous avons utilisés le banc de test suivant, composé de 7 demi-cercles, avec des diamètres de 2 à 5 cm (0,5 cm d'écart entre chaque). <br>
+
+<img src="Caractéristiques_Test/BancDeTest.png" alt="Visuel banc de test" width="400"> <br>
+
+Ce banc de test nous permet d'obtenir la variation de résistance $\frac{\Delta R}{R_0}$ en fonction de la déformation $\epsilon = \frac{e}{D}$ avec $e$ l'épaisseur du capteur (ici 0,2 mm) et $D$ le diamètre du cercle considéré. <br>
 ___
 ## 7- Datasheet du capteur
 _Section en construction..._ <br>
