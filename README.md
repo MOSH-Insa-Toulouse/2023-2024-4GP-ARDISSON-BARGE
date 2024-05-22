@@ -67,11 +67,11 @@ Sur LTSpice, nous avons testé ce montage en deux temps. <br>
 
 D'abord, nous avons effectué une première simulation pour vérifier si l'amplification était bien effective. Comme on peut le constater ci-dessous, le signal est bien amplifié à $1\ \text{V}$ : l'Arduino pourra donc l'interpréter. <br>
 
-_Insérer image de la réponse d'amplification du circuit_ <br>
+![Réponse à .tran](LTSpice/reponse_tran.png)<br>
 
-Enfin, nous avons effectué une seconde simulation, afin d'observer la réponse à un courant alternatif et ainsi de vérifier que le signal est bien filtré. Comme on peut aussi le constater ci-dessous, le signal paraît filtré. <br>
+Enfin, nous avons effectué une seconde simulation, afin d'observer la réponse à un courant alternatif et ainsi de vérifier que le signal est bien filtré. Comme on peut aussi le constater ci-dessous, le signal paraît filtré, successivement par les 3 filtres. <br>
 
-_Insérer image de la réponse d'amplification du circuit_ <br>
+![Réponse à .ac](LTSpice/reponse_ac.png)<br><br>
 ___
 ## 2- Design du PCB sous KiCAD
 Ici, nous sommes repartis du montage décrit ci-dessus, avec quelques modifications et ajouts de composants. Nous avons utilisé le logiciel KiCad 7.0 : <br>
