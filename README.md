@@ -90,17 +90,19 @@ Puis, nous avons créé les empreintes de nos composants, en respectant certaine
 ![PCB et vue 3B](ImagesKiCad/PCB3D.png) <br>
 ___
 ## 3- Code sous Arduino IDE
+Le code de contrôle, qui permet d'effectuer les mesures du capteur et de contrôler les composants implémentés, a été développé sous Arduino IDE. <br>
+
+...
+___
+## 4- Application Android
 Nous avons créés une application en guise d'interface, avec MIT App Inventor. <br>
 
+![Visuel de l'application](MITAppInventor/visuel_app.png) <br>
 
 Cette application se veut simple et permet : <br>
 ✓ De se connecter au module Bluetooth du PCB afin de communiquer avec ce dernier ; <br>
 ✓ D'afficher sur un graphe la résistance du capteur en fonction du temps (où on peut démarrer / arrêter l'acquisition + effacer le graphe) ; <br>
-✓ Et d'afficher la résistance "en direct" ; <br>
-
-___
-## 4- Application Android
-_Section en construction..._ <br>
+✓ Et d'afficher la résistance "en direct". <br>
 ___
 ## 5- Réalisation du shield
 Fin mars, nous avons pu passer à la réalisation _physique_ de notre PCB. Voici les étapes de fabrication réalisées, avec l'aide de Cathy Crouzet (_merci !_) : <br>
