@@ -89,7 +89,7 @@ Puis, nous avons créé les empreintes de nos composants, en respectant certaine
 
 ![PCB et vue 3B](KiCad/PCB3D.png) <br>
 
-Les fichiers KiCad sont disponibles dans le dossier [KiCad]([URL_du_lien](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-ARDISSON-BARGE/tree/main/KiCad)).
+Les fichiers KiCad sont disponibles dans le dossier [KiCad](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-ARDISSON-BARGE/tree/main/KiCad). 
 ___
 ## 3- Code sous Arduino IDE
 Le code de contrôle, qui permet d'effectuer les mesures du capteur et de contrôler les composants implémentés, a été développé sous Arduino IDE. <br>
