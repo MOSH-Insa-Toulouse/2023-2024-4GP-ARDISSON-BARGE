@@ -124,7 +124,7 @@ Fin mars, nous avons pu passer à la réalisation _physique_ de notre PCB. Voici
 
 L'image ci-dessous illustre le rendu final de notre PCB : <br>
 
-![PCB en vrai](ImagesKiCad/PCBenvrai.png) <br>
+![PCB en vrai](KiCad/PCB_reel.png) <br>
 ___
 ## 6- Banc de test et principaux résultats
 _Section en construction..._ <br>
