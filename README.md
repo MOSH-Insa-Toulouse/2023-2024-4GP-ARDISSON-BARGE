@@ -105,6 +105,8 @@ Cette application se veut simple et permet : <br>
 ✓ De se connecter au module Bluetooth du PCB afin de communiquer avec ce dernier ; <br>
 ✓ D'afficher sur un graphe la résistance du capteur en fonction du temps (où on peut démarrer / arrêter l'acquisition + effacer le graphe) ; <br>
 ✓ Et d'afficher la résistance "en direct". <br>
+
+_Néanmoins, on rencontre tout de même quelques problèmes de connexion entre l'app qu'on installe sur un smartphone Android et le module Bluetooth. Bien souvent, aucune donnée n'est récupérée._ <br>
 ___
 ## 5- Réalisation du shield
 Fin mars, nous avons pu passer à la réalisation _physique_ de notre PCB. Voici les étapes de fabrication réalisées, avec l'aide de Cathy Crouzet (_merci !_) : <br>
