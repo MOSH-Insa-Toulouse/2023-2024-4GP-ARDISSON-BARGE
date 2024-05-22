@@ -133,9 +133,14 @@ Afin de tester nos capteurs, nous avons utilisés le banc de test suivant, compo
 
 Ce banc de test nous permet d'obtenir la variation de résistance $\frac{\Delta R}{R_0}$ en fonction de la déformation $\epsilon = \frac{e}{D}$ avec $e$ l'épaisseur du capteur (ici 0,2 mm) et $D$ le diamètre du cercle considéré. <br>
 
-Nous avons réalisé les tests en tension et en compression. <br>
+Nous avons réalisé les tests en *compression* et en *tension*. <br>
 
 <img src="Caractéristiques_Test/SchemaTensionComp.png" alt="Visuel capteur en compression et tension" width="300"> <br>
+
+Nous avons effectués les tests avec des capteurs recouverts de deux types de graphite différents : d'un crayon HB et d'un crayon 2B. (*) <br>
+
+Voici les caractéristiques en compression : <br>
+![PCB en vrai](KiCad/PCB_reel.png) <br>
 
 ___
 ## 7- Datasheet du capteur
