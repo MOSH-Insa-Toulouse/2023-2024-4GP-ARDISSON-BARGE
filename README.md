@@ -170,8 +170,6 @@ On remarque donc que, en comparaison de nos capteurs, le flex sensor semble plus
 ___
 ## 7- Datasheet du capteur
 La datasheet de notre capteur est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-ARDISSON-BARGE/blob/main/Datasheet/ARDISSON-BARGE_Datasheet.pdf).  <br>
-
-_En espérant que notre société GazouTech va prospérer grâce à ce dernier !_ <br>
 ___
 ## Conclusions et analyse critique du projet
 Ce projet a été très enrichissant, nous donnant une réelle perspective du travail de l'ingénieur, en le conduisant de bout en bout, des simulations à la datasheet. On a pu avoir avoir une bonne perspective d'une variété de compétences (simulation électronique, développement informatique, design d'un montage électronique, fabrication _physique_ de ce dernier, etc.). En ce sens, c'est donc assez professionnalisant, et gratifiant d'avoir un produit final. <br>
@@ -179,6 +177,8 @@ Ce projet a été très enrichissant, nous donnant une réelle perspective du tr
 En ce qui concerne le capteur produit, il est fonctionnel et les tests nous permettent de dégager des tendances cohérentes avec la physique. Néanmoins, comme souligné plus haut, les conditions de tests sont rudimentaires et peu reproductibles, ce qui conduit à tout de même obtenir des résultats assez aléatoires. Il faut donc prendre du recul. <br>
 
 Maintenant, il est clair que dans un objectif pédagogique, ce projet est idéal ! <br>
+
+_En espérant que notre société GazouTech va prospérer grâce à ce dernier !_ <br>
 
 ![Fin de page](Divers/Fin_de_page.png)<br> 
 
