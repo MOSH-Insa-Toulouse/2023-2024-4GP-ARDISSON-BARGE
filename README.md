@@ -101,13 +101,13 @@ Le code de contrôle, qui permet d'effectuer les mesures du capteur et de contr�
 
 Pour communiquer en Bluetooth, nous avons utilisé la bibliothèque _SoftwareSerial.h_ et pour contrôler l'écran OLED, la bibliothèque _Adafruit_SSD1306.h_. <br>
 
-Notamment, en plus de la communication Bluetooth entre notre PCB et l'application Bluetooth, notre code permet de contrôler deux menus à afficher sur l'écran OLED :
+Notamment, en plus de la communication Bluetooth entre notre PCB et l'application Bluetooth, notre code permet de contrôler deux menus à afficher sur l'écran OLED : <br>
 ✓ Un menu pour afficher la résistance du capteur _en direct_ ; <br>
 ✓ Et un menu pour afficher la résistance du flex sensor _en direct_. <br>
 
 Les mesures se sont toutes les 100 ms. <br>
 
-Notre 
+Le code complet est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-ARDISSON-BARGE/blob/main/ArduinoIDE/ARDISSON-BARGE_CodeFinal.ino). <br>
 ___
 ## 4- Application Android
 Nous avons créé une application en guise d'interface, avec MIT App Inventor. <br>
