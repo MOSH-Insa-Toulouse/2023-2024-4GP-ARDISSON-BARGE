@@ -159,7 +159,7 @@ On remarque donc que, en comparaison de nos capteurs, le flex sensor semble plus
 (*) _Nous voulions aussi tester notre capteur en graphite issu d'un crayon B, mais les tests n'étaient pas concluants. En effet, cette méthode de test donne des résultats assez aléatoirement. L'usage d'un servomoteur avec une inclinaison pas à pas sur les demi-cercles pourrait peut-être donner des résultats plus stables. Dans la même optique, une méthode de contrôle de la quantité de graphique déposée sur les capteurs serait la bienvenue, étant assez aléatoire. Tout cela conduit donc à avoir, en l'état, des conditions de test assez peu reconductibles._ <br>
 ___
 ## 7- Datasheet du capteur
-La datasheet de notre capteur est disponible [ici]([https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-ARDISSON-BARGE/blob/main/Datasheet/ARDISSON-BARGE_Datasheet.pdf]).  <br>
+La datasheet de notre capteur est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-ARDISSON-BARGE/blob/main/Datasheet/ARDISSON-BARGE_Datasheet.pdf).  <br>
 
 _En espérant que notre société GazouTech va prospérer grâce à ce dernier !_ <br>
 ___
