@@ -144,19 +144,19 @@ Nous avons effectués les tests avec des capteurs recouverts de deux types de gr
 Voici les caractéristiques en compression : <br>
 ![Caractéristique en compression](Caractéristiques_Test/CaracCompression.png) <br>
 
-_Ajouter une partie d'explication_ <br>
-
 Et les caractéristiques en tension : <br>
 ![Caractéristique en tension](Caractéristiques_Test/CaracTension.png) <br>
 
-_Ajouter une partie d'explication_ <br>
+On peut donc remarquer que la résistance diminue lorsqu'on augmente la compression, alors que la résistance augmente lorsqu'on augmente la tension. Ceci semble cohérent : en compression, la distance entre les atomes diminue et donc la résistance dimunue en conséquence. L'inverse est vrai en tension. <br>
+
+De plus, on voit qu'avec un crayon plus gras (2B étant plus gras que HB - plus de carbone !), la variation relative de résistance est moins importante. 
 
 Enfin, pour comparer, nous avons aussi réalisé le test en tension (car cela ne fonctionne pas en compression !) avec le flex sensor : <br>
 ![Caractéristique flex sensor](Caractéristiques_Test/CaracFlexSensor.png) <br>
 
-_Ajouter une partie d'explication_ <br>
+On remarque donc que, en comparaison de nos capteurs, le flex sensor semble plus sensible, ce qui semble faire sens. Pour des déformations importantes, il semble aussi être plus apte à les tolérer, "plus solide". <br>
 
-(*) _Nous voulions aussi tester notre capteur en graphite issu d'un crayon B, mais les tests n'étaient pas concluants. En effet, cette méthode de test donne des résultats assez aléatoirement. L'usage d'un servomoteur avec une inclinaison pas à pas sur les demi-cercles pourrait peut-être donner des résultats plus stables._ <br>
+(*) _Nous voulions aussi tester notre capteur en graphite issu d'un crayon B, mais les tests n'étaient pas concluants. En effet, cette méthode de test donne des résultats assez aléatoirement. L'usage d'un servomoteur avec une inclinaison pas à pas sur les demi-cercles pourrait peut-être donner des résultats plus stables. Dans la même optique, une méthode de contrôle de la quantité de graphique déposée sur les capteurs serait la bienvenue, étant assez aléatoire. Tout cela conduit donc à avoir, en l'état, des conditions de test assez peu reconductibles._ <br>
 ___
 ## 7- Datasheet du capteur
 _Section en construction..._ <br>
