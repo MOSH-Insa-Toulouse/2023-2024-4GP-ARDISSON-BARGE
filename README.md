@@ -1,6 +1,6 @@
 # 4GP 2023/2024 - Projet de capteur _low-tech_ en graphite - Par Cyril ARDISSON et Kévin BARGE <br>
 
-<img src="Divers/SchémaCapteur.png" alt="Visuel capteur" width="300">
+<img src="Divers/SchemaCapteur.png" alt="Visuel capteur" width="300">
 
 ## Table des matières
 ✓ [Contacts](#contacts) <br>
