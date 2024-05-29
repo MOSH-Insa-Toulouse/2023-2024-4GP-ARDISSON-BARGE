@@ -97,12 +97,20 @@ Puis, nous avons créé les empreintes de nos composants, en respectant certaine
 Les fichiers KiCad sont disponibles dans le dossier [KiCad](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-ARDISSON-BARGE/tree/main/KiCad). 
 ___
 ## 3- Code sous Arduino IDE
-Le code de contrôle, qui permet d'effectuer les mesures du capteur et de contrôler les composants implémentés, a été développé sous Arduino IDE. <br>
+Le code de contrôle, qui permet d'effectuer les mesures du capteur et de contrôler les composants implémentés, a été développé sous Arduino IDE 2.3.2. <br>
 
-...
+Pour communiquer en Bluetooth, nous avons utilisé la bibliothèque _SoftwareSerial.h_ et pour contrôler l'écran OLED, la bibliothèque _Adafruit_SSD1306.h_. <br>
+
+Notamment, en plus de la communication Bluetooth entre notre PCB et l'application Bluetooth, notre code permet de contrôler deux menus à afficher sur l'écran OLED :
+✓ Un menu pour afficher la résistance du capteur _en direct_ ; <br>
+✓ Et un menu pour afficher la résistance du flex sensor _en direct_. <br>
+
+Les mesures se sont toutes les 100 ms. <br>
+
+Notre 
 ___
 ## 4- Application Android
-Nous avons créés une application en guise d'interface, avec MIT App Inventor. <br>
+Nous avons créé une application en guise d'interface, avec MIT App Inventor. <br>
 
 ![Visuel de l'application](MITAppInventor/visuel_app.png) <br>
 
