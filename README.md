@@ -178,5 +178,5 @@ En ce qui concerne le capteur produit, il est fonctionnel et les tests nous perm
 
 Maintenant, il est clair que dans un objectif pédagogique, ce projet est idéal ! <br>
 
-![Fin de page](Divers/Fin de page.png)<br> 
+![Fin de page](Divers/Fin_de_page.png)<br> 
 
