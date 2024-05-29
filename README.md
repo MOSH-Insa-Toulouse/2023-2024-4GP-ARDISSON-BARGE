@@ -105,7 +105,7 @@ Notamment, en plus de la communication Bluetooth entre notre PCB et l'applicatio
 ✓ Un menu pour afficher la résistance du capteur _en direct_ ; <br>
 ✓ Et un menu pour afficher la résistance du flex sensor _en direct_. <br>
 
-Les mesures se sont toutes les 100 ms. <br>
+Les mesures se font toutes les 100 ms. <br>
 
 Le code complet est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-ARDISSON-BARGE/blob/main/ArduinoIDE/ARDISSON-BARGE_CodeFinal.ino). <br>
 ___
