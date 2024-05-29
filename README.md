@@ -120,6 +120,8 @@ Cette application se veut simple et permet : <br>
 ✓ Et d'afficher la résistance "en direct". <br>
 
 _Néanmoins, on rencontre tout de même quelques problèmes de connexion entre l'app qu'on installe sur un smartphone Android et le module Bluetooth. Bien souvent, aucune donnée n'est récupérée._ <br>
+
+L'application est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-4GP-ARDISSON-BARGE/blob/main/MITAppInventor/AppAndroid.apk). <br>
 ___
 ## 5- Réalisation du shield
 Fin mars, nous avons pu passer à la réalisation _physique_ de notre PCB. Voici les étapes de fabrication réalisées, avec l'aide de Cathy Crouzet (_merci !_) : <br>
